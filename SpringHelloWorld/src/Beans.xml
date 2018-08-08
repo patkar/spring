@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<!--<bean id="w1" class="com.deloitte.welcome">
+		<property name="msg" value="hello spring"></property>
+	</bean>-->
+	
+	<!-- <bean id="comp" class="com.deloitte.computer">
+		<property name="brandName" value="DELL"></property>
+		<constructor-arg ref="cpu1"></constructor-arg>
+	</bean>
+	
+	<bean id="cpu1" class="com.deloitte.cpu">
+		<property name="cpuBrand" value="AMD"></property>
+	</bean> -->
+	
+	<!-- <bean id="compu" class="com.deloitte.computer">
+		<property name="cpu" ref="c1"></property>
+	</bean>
+	<bean id="c1" class="com.deloitte.cpu">
+		<property name="cpuBrand" value="intel"></property>
+	</bean> -->
+	
+	<bean id="helloworld" class="com.deloitte.helloworld">
+		<property name="message1" value="Hello world one"></property>
+		<property name="message2" value="Hello world two"></property>
+	</bean>
+	<bean id="helloindia" class="com.deloitte.helloindia">
+	<property name="message1" value="Hello india"></property>
+		<property name="message3" value="welcome India"></property>
+	</bean>
+</beans>
+   
